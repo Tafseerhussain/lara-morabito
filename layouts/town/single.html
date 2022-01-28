@@ -1,0 +1,90 @@
+{{ define "main" }}
+
+<div class="top-space"></div>
+
+	<div class="page-top-text">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="category-head text-uppercase utile">
+						{{ .Params.title }}
+						<span class="ms-5">
+							{{ .Params.location }}
+						</span>
+					</div>
+					<div class="section-text">
+						{{ .Params.summary }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="garden-images">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 offset-md-4">
+					<img src="{{ .Params.img1 }}" class="w-100" alt="">
+				</div>
+			</div>
+			<div class="row garden-top-space g-md-5">
+				<div class="col-md-3 col-4">
+					<img src="{{ .Params.img2 }}" class="w-100 h-100" alt="">
+				</div>
+				<div class="col-md-5 col-8">
+					<img src="{{ .Params.img3 }}" class="w-100 h-100" alt="">
+				</div>
+			</div>
+			<div class="row garden-top-space">
+				<div class="col-md-7 offset-md-5">
+					<img src="{{ .Params.img4 }}" class="w-100" alt="">
+				</div>
+			</div>
+			<div class="row garden-top-space">
+				<div class="col-md-10">
+					<img src="{{ .Params.img5 }}" class="w-100" alt="">
+				</div>
+			</div>
+			<div class="row garden-top-space">
+				<div class="col-md-7 offset-md-5">
+					<img src="{{ .Params.img6 }}" class="w-100" alt="">
+				</div>
+			</div>
+			<div class="row garden-top-space g-md-5">
+				<div class="col-md-5 col-6">
+					<img src="{{ .Params.img7 }}" class="w-100" alt="">
+				</div>
+				<div class="col-md-5 col-6">
+					<img src="{{ .Params.img8 }}" class="w-100" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="page-bottom-text">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 offset-md-3 text-center">
+					<p class="section-text">
+						“{{ .Params.quote }}"
+					</p>
+					<img src="/assets/img/home/category-icon.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-top-links text-center utile">
+		<div class="container">
+			<div class="row">
+				<div class="col-md"></div>
+				<div class="col-md col-4"><a href="/town">Town</a></div>
+				<div class="col-md col-4"><a href="/estate">Estate</a></div>
+				<div class="col-md col-4"><a href="/details">Details</a></div>
+				<div class="col-md"><a href="/process">Process of Making</a></div>
+				<div class="col-md"><a href="/about-lara">About Lara</a></div>
+				<div class="col-md"></div>
+			</div>
+		</div>
+	</div>
+
+{{ end }}

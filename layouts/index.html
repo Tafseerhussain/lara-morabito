@@ -1,0 +1,136 @@
+{{ define "main" }}
+	<div class="slide-links-mob d-block d-md-none text-uppercase d-flex justify-content-around utile">
+		<a href="/town">TOWNs</a>
+		<a href="/estate">ESTATE</a>
+	</div>
+	<div class="page-top-text">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="section-text">
+						By tending to the relation of physical elements such as color and texture alongside the ineffable components of atmosphere and mood, Lara Morabito creates gardens and outdoor spaces that reflect her sensibility as an artist and mastery as a designer. 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="home-category-slider">
+		<div class="container ps-md-0">
+			<div class="row">
+				<div class="col-12 ps-md-0">
+					<!-- Category Slider Desktop -->
+					<div class="category-slider  d-none d-md-block">
+						{{ range first 2 $.Site.RegularPages }}
+						
+						<div>
+							<a href="{{ .RelPermalink }}" class="category-slide utile">
+								<img src="{{ .Params.img1 }}" class="w-100" alt="">
+								<div class="d-md-flex justify-content-between text-uppercase pt-2">
+									<p class="cat-left-text">{{ .Params.title }}</p>
+									<p class="cat-right-text pt-1">{{ .Params.location }}</p>
+								</div>
+							</a>
+						</div>
+						{{ end }}
+						<div>
+							<a href="#" class="category-slide utile">
+								<div>
+									{{ range first 1 ( after 2 ( $.Site.RegularPages) )}}
+									<a href="{{ .RelPermalink }}">
+									<div class="category-last-slide">
+										<img src="{{ .Params.img1 }}" class="w-100" alt="">
+										<div class="d-flex justify-content-between text-uppercase pt-2">
+											<p class="cat-left-text">{{ .Params.title }}</p>
+											<p class="cat-right-text pt-1">{{ .Params.location }}</p>
+										</div>
+									</div>
+									</a>
+									{{ end }}
+									<div class="category-slide d-block">
+										<div class="category-box utile">
+											<p><a href="/town">Town</a></p>
+											<p><img src="/assets/img/home/category-icon.png" class="mx-auto" alt=""></p>
+											<p><a href="/estate">Estate</a></p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- Category Slider Desktop End -->
+
+					<!-- Category Slider Mob -->
+					<div class="category-slider d-block d-md-none">
+						<div>
+							<a href="#" class="category-slide utile">
+								<img src="/assets/img/home/s1.png" class="w-100" alt="">
+								<div class="d-md-flex justify-content-between text-uppercase pt-2">
+									<p class="cat-left-text">A majestic Vision</p>
+									<p class="cat-right-text pt-1">Talbot County,<br> Maryland</p>
+								</div>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="category-slide utile">
+								<img src="/assets/img/home/s2.png" class="w-100" alt="">
+								<div class="d-md-flex justify-content-between text-uppercase pt-2">
+									<p class="cat-left-text">Poetry and Sanctuary</p>
+									<p class="cat-right-text pt-1">Talbot County,<br> Maryland</p>
+								</div>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="category-slide utile">
+								<img src="/assets/img/home/s3.png" class="w-100" alt="">
+								<div class="d-md-flex justify-content-between text-uppercase pt-2">
+									<p class="cat-left-text">Secret Garden</p>
+									<p class="cat-right-text pt-1">Washington,<br> DC</p>
+								</div>
+							</a>
+						</div>
+						<div>
+							<div class="category-slide d-block">
+								<div class="category-box utile">
+									<p><a href="/town">Town</a></p>
+									<p><img src="/assets/img/home/category-icon.png" class="mx-auto" alt=""></p>
+									<p><a href="/estate">Estate</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Category Slider Mob End -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="page-bottom-text">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 offset-md-3 text-center">
+					<p class="section-text">
+						“A house entirely embosomed in high plane trees, is a gift to future generations
+					</p>
+					<p class="section-text-author">
+						—Thomas Jefferson
+					</p>
+					<img src="/assets/img/home/category-icon.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-top-links text-center utile">
+		<div class="container">
+			<div class="row">
+				<div class="col-md"></div>
+				<div class="col-md col-4"><a href="/town">Town</a></div>
+				<div class="col-md col-4"><a href="/estate">Estate</a></div>
+				<div class="col-md col-4"><a href="/details">Details</a></div>
+				<div class="col-md"><a href="/process">Process of Making</a></div>
+				<div class="col-md"><a href="/about-lara">About Lara</a></div>
+				<div class="col-md"></div>
+			</div>
+		</div>
+	</div>
+{{ end }}

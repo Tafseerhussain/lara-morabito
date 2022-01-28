@@ -1,0 +1,74 @@
+<!--{{ define "main" }}
+
+
+ <div class="top-space"></div>
+
+	<div class="page-top-text">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="category-head text-uppercase utile">
+						TOWN
+					</div>
+					<div class="section-text">
+						For gardens within a city, the strategy involves a design that will seclude the property and evince a feeling of being somewhere else, far from the noise and energy of the urban environment. Taking the needs and desires of each client in mind, Lara creates city sanctuaries with chic appeal – hedgerows, stonework, fruit trees, and natural gardens create intimacy and interest in small spaces.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="category-posts utile">
+		<div class="container">
+			<div class="row g-5">
+				{{ $.Scratch.Set "counter" 0}}
+				{{ range $i,$p := (.Paginator 6).Pages }}
+				<div class="col-md-6">
+					<a href="{{ .RelPermalink }}" class="category-post">
+						<div class="category-img">
+							<img src="{{ .Params.img1 }}" class="w-100" alt="">
+						</div>
+						<div class="category-meta d-md-flex justify-content-between text-uppercase pt-2">
+							<p>{{ .Params.title }}</p>
+							<p class="pt-1">{{ .Params.location }}</p>
+						</div>
+					</a>
+				</div>
+				{{ end }}
+				{{ template "_internal/pagination.html" . }}
+			</div>
+		</div>
+	</div>
+
+	<div class="page-bottom-text">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 offset-md-3 text-center">
+					<p class="section-text">
+						“Lorem ipsum dolor sit amet,
+						consetetur sadipscing elitr, sed diam
+						nonumy eirmod tempor invidunt ut 
+						labore et dolore magna aliquyam erat, 
+						sed diam voluptua. At vero eos et 
+						accusam et justo duo dolores et."
+					</p>
+					<img src="/assets/img/home/category-icon.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-top-links text-center utile">
+		<div class="container">
+			<div class="row">
+				<div class="col-md"></div>
+				<div class="col-md col-4"><a href="/town">Town</a></div>
+				<div class="col-md col-4"><a href="/estate">Estate</a></div>
+				<div class="col-md col-4"><a href="/details">Details</a></div>
+				<div class="col-md"><a href="/process">Process of Making</a></div>
+				<div class="col-md"><a href="/about-lara">About Lara</a></div>
+				<div class="col-md"></div>
+			</div>
+		</div>
+	</div>
+
+{{ end }}-->
