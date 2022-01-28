@@ -1,0 +1,54 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: static/img
+public_folder: /img
+collections:
+
+  - name: 'town'
+    label: 'Town'
+    folder: 'content/town'
+    create: true
+    delete: true
+    slug: '{{title}}-{{year}}-{{month}}-{{day}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Draft', name: 'draft', widget: 'hidden', default: false }
+      - { label: 'Location', name: "location", widget: "string" }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - { label: 'Summary', name: "summary", widget: "string" }
+      - { label: "First Image", name: "img1", widget: "image", required: true }
+      - { label: "Second Image", name: "img2", widget: "image", required: true }
+      - { label: "Third Image", name: "img3", widget: "image", required: true }
+      - { label: "Fourth Image", name: "img4", widget: "image", required: true }
+      - { label: "Fifth Image", name: "img5", widget: "image", required: true }
+      - { label: "Sixth Image", name: "img6", widget: "image", required: true }
+      - { label: "Seventh Image", name: "img7", widget: "image", required: true }
+      - { label: "Eighth Image", name: "img8", widget: "image", required: true }
+      - { label: 'Quote', name: "quote", widget: "string" }
+
+  - name: 'estate'
+    label: 'Estate'
+    folder: 'content/estate'
+    create: true
+    delete: true
+    slug: '{{title}}-{{year}}-{{month}}-{{day}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Draft', name: 'draft', widget: 'hidden', default: false }
+      - { label: 'Location', name: "location", widget: "string" }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - { label: 'Summary', name: "summary", widget: "string" }
+      - { label: "First Image", name: "img1", widget: "image", required: true }
+      - { label: "Second Image", name: "img2", widget: "image", required: true }
+      - { label: "Third Image", name: "img3", widget: "image", required: true }
+      - { label: "Fourth Image", name: "img4", widget: "image", required: true }
+      - { label: "Fifth Image", name: "img5", widget: "image", required: true }
+      - { label: "Sixth Image", name: "img6", widget: "image", required: true }
+      - { label: "Seventh Image", name: "img7", widget: "image", required: true }
+      - { label: "Eighth Image", name: "img8", widget: "image", required: true }
+      - { label: 'Quote', name: "quote", widget: "string" }

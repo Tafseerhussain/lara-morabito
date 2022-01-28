@@ -1,0 +1,237 @@
+@media (max-width: 1680px) {
+	.slide-links {font-size: 150px}
+	.section-text {font-size: 32px}
+	.category-box {right: -30%}
+	.footer-top-links a {font-size: 20px}
+}
+
+@media (max-width: 1584px) {
+	.category-slider .slick-slide {padding-right: 45px}
+	.category-slider .slick-list {margin-left: -3%}
+}
+
+@media (max-width: 1450px) {
+	.sidenav-links {margin-top: 150px}
+	.header-logo img {width: 80px}
+	.section-text {font-size: 27px}
+	.cat-left-text {font-size: 18px}
+	.cat-right-text {font-size: 14px}
+	.footer {font-size: 16px}
+	.footer-top-links a {font-size: 18px}
+	.sidenav-links a {
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	.gallery-slider .slick-slide {margin: 0 150px}
+	.gallery-slider .slick-slide img {width: 80% !important}
+	.press-card-meta {font-size: 14px}
+	.press-card .summary {font-size: 16px}
+	.slide-links a {height: 100px}
+	.slide-links a:first-child {top: 35px}
+}
+
+@media (max-width: 1366px) {
+	.slide-links {font-size: 120px}
+	.sidenav-links {margin-top: 120px}
+	.sidenav-bottom .mb-5 {margin-bottom: 2rem !important}
+	.press-card .summary {font-size: 14px}
+	.press-card-meta {font-size: 12px}
+	.press-card a {font-size: 12px}
+}
+
+@media (max-width: 1280px) {
+	.section-text {
+		font-size: 24px;
+		line-height: 34px;
+	}
+	.cat-left-text {font-size: 16px}
+	.cat-right-text {font-size: 12px}
+	.category-box p {
+	    margin-bottom: 60px;
+	    font-size: 20px;
+	}
+	.category-box {right: -27%}
+	.footer-top-links a {font-size: 16px}
+	.subtext {font-size: 16px}
+}
+
+@media (max-width: 1199px) {
+	.footer-top-links a {font-size: 14px}
+	.footer {font-size: 14px}
+	.slide-links {font-size: 100px}
+	.about-flower {margin-top: 30px}
+	.about-top .section-text {padding-right: 0 !important}
+	.about-top-margin {padding-right: 0}
+	.about-top .subtext:last-child {padding-left: 50px}
+	.about-middle {margin-top: 80px}
+	.about-lara {padding: 150px 0 150px}
+	.press {padding-top: 70px 0 90px}
+	.presses-margin {margin-top: 0 !important}
+	.page-bottom-text {padding: 100px 0 70px}
+	.press-card-logo {top: 30%}
+	.press-cards-slider .press-card {margin: 0 10px}
+	.gallery-slider .slick-next {background-size: 50%}
+	.gallery-slider .slick-prev {background-size: 50%}
+}
+
+@media (max-width: 1024px) {
+	.section-text {
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+	.page-top-text .section-text {padding-right: 30%}
+	.category-slider .slick-slide {padding-right: 30px}
+	.gallery-slider .slick-arrow {top: 150%}
+	.gallery-slider .slick-slide img {width: 100% !important}
+	.press-card-logo {width: 60%}
+	.category-slider .slick-list {margin-left: -2%}
+}
+@media (max-width: 991px) {
+	.slide-links {font-size: 80px}
+	.slide-links a {height: 70px}
+	.slide-links a:first-child {top: 20px}
+	.slick-dots li {width: 82px}
+	.page-bottom-text .section-text {
+	    padding-right: 10%;
+	    padding-left: 10%;
+	}
+	.page-top-text .section-text {padding-right: 20%}
+	.sidenav-links {margin-top: 90px}
+	.sidenav-links a {
+	    font-size: 16px;
+	    margin-bottom: 2px;
+	}
+	.gallery-slider .slick-next {right: 42%}
+	.gallery-slider .slick-prev {left: 42%}
+	.gallery-slider .slick-slide {margin: 0 120px}
+	.subtext {font-size: 14px}
+	.section-text {font-size: 18px;line-height: 24px}
+}
+@media (max-width: 850px) {
+	.press-card .summary {font-size: 12px}
+}
+@media (max-width: 767px) {
+	.carousel, .carousel-inner, .carousel-item, .home-slider .container {height: auto}
+	.slide-links {display: none}
+	.slide-links-mob {
+		margin: 30px 0 -40px;
+		color: #35412F;
+		opacity: 0.40;
+		font-size: 36px;
+	}
+	.section-text {
+		font-size: 28px;
+		padding: 0 !important;
+		line-height: 40px;
+	}
+	.category-slider .slick-slide {width: 101vw}
+	.home-category-slider .container {
+		max-width: 100%;
+		position: relative;
+		left: 3%;
+	}
+	.home-slider img {min-height: 80vh}
+	.home-slider {height: 80%}
+	.slick-dots li {width: 20%}
+	.category-box {
+	    left: 50%;
+	    right: unset;
+	}
+	.category-slider .slick-slide:last-child {width: 91vw}
+	.footer-top-links a {font-size: 20px}
+	.footer {font-size: 18px}
+	.footer .phone {margin-top: 40px}
+	.footer-top-links .col-md {margin-bottom: 30px}
+	.sidenav-links a {font-size: 22px}
+	.cat-left-text {margin-bottom: 0}
+	.footer-top-links {padding-bottom: 100px}
+	.slick-dots li {
+	    width: 23%;
+	    position: relative;
+	    left: -12px;
+	}
+	.page-bottom-text {padding-top: 100px}
+	.sidenav-links {margin-top: 150px}
+	.category-meta p:first-child {
+		margin-bottom: 0;
+		font-size: 16px;
+	}
+	.category-meta p:last-child {font-size: 12px}
+	.category-meta br {display: block}
+	.gallery-slider .slick-slide {margin: 0 70px}
+	.garden-top-space {margin-top: 40px}
+	.map-process {padding-top: 0 !important;margin-top: 0 !important}
+	.garden-process {padding-bottom: 0 !important;margin-bottom: 0 !important}
+	.under-map-process-text, .under-video-process-text {top: 0}
+	.blackwhite-process {padding-top: 0 !important;margin-top: 0 !important}
+	.blackwhite-process .mt-5,
+	.blackwhite-process .pt-5 {padding-top: 0 !important;margin-top: 0 !important}
+	.video-process .col-md-3 {margin-top: 30px !important}
+	.video-process .col-md-5 {margin-top: 30px !important}
+	.last-process img {margin-top: 30px !important}
+	.subtext {font-size: 18px}
+	.chart-process-text .subtext {font-size: 18px}
+	.about-top-margin {padding-right: calc(var(--bs-gutter-x)/ 2)}
+	.about-right {margin-top: 40px}
+	.about-middle {margin-top: 0}
+	.about-flower {margin-top: 0}
+	.about-flower img {margin-bottom: 30px}
+	.about-lara {padding: 50px 0 100px}
+	.about-lara-text {
+	    position: relative;
+	    top: 30px;
+	    transform: none;
+	}
+	.press {padding: 50px 0}
+	.press-card .summary {font-size: 16px}
+	.press-card {margin-bottom: 40px}
+	.press-card-logo {top: 37%}
+	.home-category-slider .container {max-width: 95%; left: 0}
+	.category-slider .slick-list {margin-left: 0}
+}
+
+@media (max-width: 575px) {
+	.category-slider .slick-slide {width: 105vw}
+	.sidenav a {padding-left: 26px}
+	.gallery-slider .slick-next {right: 40%; width: 40px}
+	.gallery-slider .slick-prev {left: 40%; width: 40px}
+	.details-gallery {margin-top: 0 !important}
+	.about-middle-second img {width: 95% !important}
+	.press-cards-slider .press-card {margin: 0 10px}
+	.press-card .summary {font-size: 14px}
+	.sidenav-bottom {
+	    position: relative;
+	    margin-top: 100px;
+	}
+	.press-card-logo {top: 33%}
+	.details-gallery-container .col-md-2 {
+		padding-right: calc(var(--bs-gutter-x)/ 4);
+    	padding-left: calc(var(--bs-gutter-x)/ 4);
+    	margin-top: 7px;
+	}
+	.toggle-menu {top: 20px}
+}
+@media (max-width: 498px) {
+	.sidenav .closebtn {right: 2%}
+	.sidenav a {padding-left: 15px}
+	.gallery-slider .slick-slide {margin: 0 40px}
+	.gallery-slider .slick-next {right: 35%}
+	.gallery-slider .slick-prev {left: 35%}
+	.section-text {
+	    font-size: 24px;
+	    padding: 0 !important;
+	    line-height: 36px;
+	}
+	.press-card-logo {top: 30%}
+	.home-category-slider .container {max-width: 100%}
+}
+
+@media (max-width: 375px) {
+	.sidenav-links a {
+	    font-size: 18px;
+	}
+	.sidenav-links {
+	    margin-top: 100px;
+	}
+	.press-card-logo {top: 27%}
+}
